@@ -28,7 +28,7 @@ export function activate(context: ExtensionContext) {
     };
 
     client = new LanguageClient(
-        'languageServerExample',
+        'sqls',
         serverOptions,
         clientOptions,
     );
